@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+
+OPTION(DEFINE_MACRO "Option description" ON)
+
+project("XEngine")
+
+ADD_SUBDIRECTORY(3rd)
+ADD_SUBDIRECTORY(source)
