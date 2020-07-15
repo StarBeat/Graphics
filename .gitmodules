@@ -1,0 +1,6 @@
+[submodule "XEngine/3rd/assimp"]
+	path = XEngine/3rd/assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "XEngine/3rd/imgui"]
+	path = XEngine/3rd/imgui
+	url = https://github.com/ocornut/imgui.git

@@ -6,3 +6,6 @@ project("XEngine")
 
 ADD_SUBDIRECTORY(3rd)
 ADD_SUBDIRECTORY(source)
+
+execute_process(COMMAND python ./tools/prebuild.py
+    WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR})
